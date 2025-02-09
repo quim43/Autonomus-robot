@@ -1,0 +1,24 @@
+[1.558s] Invoking command in '/home/quim/robotica_ros/P_final/src/local_planner': PYTHONPATH=/home/quim/robotica_ros/P_final/build/local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/quim/robotica_ros/P_final/build/local_planner/build install --record /home/quim/robotica_ros/P_final/build/local_planner/install.log --single-version-externally-managed install_data
+[1.845s] running egg_info
+[1.845s] writing ../../build/local_planner/local_planner.egg-info/PKG-INFO
+[1.854s] writing dependency_links to ../../build/local_planner/local_planner.egg-info/dependency_links.txt
+[1.854s] writing entry points to ../../build/local_planner/local_planner.egg-info/entry_points.txt
+[1.854s] writing requirements to ../../build/local_planner/local_planner.egg-info/requires.txt
+[1.854s] writing top-level names to ../../build/local_planner/local_planner.egg-info/top_level.txt
+[1.856s] reading manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[1.857s] writing manifest file '../../build/local_planner/local_planner.egg-info/SOURCES.txt'
+[1.858s] running build
+[1.858s] running build_py
+[1.859s] copying local_planner/local_planner.py -> /home/quim/robotica_ros/P_final/build/local_planner/build/lib/local_planner
+[1.859s] running install
+[1.859s] running install_lib
+[1.860s] copying /home/quim/robotica_ros/P_final/build/local_planner/build/lib/local_planner/local_planner.py -> /home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages/local_planner
+[1.861s] byte-compiling /home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages/local_planner/local_planner.py to local_planner.cpython-310.pyc
+[1.863s] running install_data
+[1.863s] running install_egg_info
+[1.866s] removing '/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[1.866s] Copying ../../build/local_planner/local_planner.egg-info to /home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages/local_planner-0.0.0-py3.10.egg-info
+[1.868s] running install_scripts
+[1.896s] Installing local_planner_node script to /home/quim/robotica_ros/P_final/install/local_planner/lib/local_planner
+[1.897s] writing list of installed files to '/home/quim/robotica_ros/P_final/build/local_planner/install.log'
+[1.967s] Invoked command in '/home/quim/robotica_ros/P_final/src/local_planner' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/quim/robotica_ros/P_final/build/local_planner/build install --record /home/quim/robotica_ros/P_final/build/local_planner/install.log --single-version-externally-managed install_data

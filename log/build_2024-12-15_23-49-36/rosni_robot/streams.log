@@ -1,0 +1,20 @@
+[3.361s] Invoking command in '/home/quim/robotica_ros/P_final/src/rosni_robot': PYTHONPATH=/home/quim/robotica_ros/P_final/build/rosni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/rosni_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosni_robot build --build-base /home/quim/robotica_ros/P_final/build/rosni_robot/build install --record /home/quim/robotica_ros/P_final/build/rosni_robot/install.log --single-version-externally-managed install_data
+[4.139s] running egg_info
+[4.142s] writing ../../build/rosni_robot/rosni_robot.egg-info/PKG-INFO
+[4.145s] writing dependency_links to ../../build/rosni_robot/rosni_robot.egg-info/dependency_links.txt
+[4.146s] writing entry points to ../../build/rosni_robot/rosni_robot.egg-info/entry_points.txt
+[4.147s] writing requirements to ../../build/rosni_robot/rosni_robot.egg-info/requires.txt
+[4.147s] writing top-level names to ../../build/rosni_robot/rosni_robot.egg-info/top_level.txt
+[4.154s] reading manifest file '../../build/rosni_robot/rosni_robot.egg-info/SOURCES.txt'
+[4.158s] writing manifest file '../../build/rosni_robot/rosni_robot.egg-info/SOURCES.txt'
+[4.159s] running build
+[4.160s] running build_py
+[4.163s] running install
+[4.163s] running install_lib
+[4.167s] running install_data
+[4.168s] running install_egg_info
+[4.182s] removing '/home/quim/robotica_ros/P_final/install/rosni_robot/lib/python3.10/site-packages/rosni_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[4.183s] Copying ../../build/rosni_robot/rosni_robot.egg-info to /home/quim/robotica_ros/P_final/install/rosni_robot/lib/python3.10/site-packages/rosni_robot-0.0.0-py3.10.egg-info
+[4.185s] running install_scripts
+[4.317s] writing list of installed files to '/home/quim/robotica_ros/P_final/build/rosni_robot/install.log'
+[4.480s] Invoked command in '/home/quim/robotica_ros/P_final/src/rosni_robot' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/rosni_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/rosni_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rosni_robot build --build-base /home/quim/robotica_ros/P_final/build/rosni_robot/build install --record /home/quim/robotica_ros/P_final/build/rosni_robot/install.log --single-version-externally-managed install_data

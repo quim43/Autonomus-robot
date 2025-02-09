@@ -1,0 +1,120 @@
+[0.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/quim/robotica_ros/P_final']
+[0.296s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/quim/robotica_ros/P_final'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78fcad437c10>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x78fcad436e30>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x78fcad436e30>>, mixin_verb=('list',))
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.799s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/quim/robotica_ros/P_final'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'ros'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['cmake', 'python']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'cmake'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'python'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extensions ['python_setup_py']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final) by extension 'python_setup_py'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'ros'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['cmake', 'python']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'cmake'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'python'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extensions ['python_setup_py']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/ROBOT_SCREENSHOTS) by extension 'python_setup_py'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/build) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/build) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/build) ignored
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/install) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/install) by extension 'ignore'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/install) ignored
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/log) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/log) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/log) ignored
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'colcon_pkg'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['colcon_meta']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'colcon_meta'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['ros']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'ros'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['cmake', 'python']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'cmake'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'python'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extensions ['python_setup_py']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src) by extension 'python_setup_py'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extension 'ignore'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extension 'ignore_ament_install'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extensions ['colcon_pkg']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extension 'colcon_pkg'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extensions ['colcon_meta']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extension 'colcon_meta'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extensions ['ros']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/frontier_explorer) by extension 'ros'
+[0.847s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/frontier_explorer' with type 'ros.ament_python' and name 'frontier_explorer'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extension 'ignore'
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extension 'ignore_ament_install'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extensions ['colcon_pkg']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extension 'colcon_pkg'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extension 'colcon_meta'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extensions ['ros']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/global_planner) by extension 'ros'
+[0.853s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/global_planner' with type 'ros.ament_python' and name 'global_planner'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extension 'ignore_ament_install'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extensions ['colcon_pkg']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extensions ['colcon_meta']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extension 'colcon_meta'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extensions ['ros']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/local_planner) by extension 'ros'
+[0.857s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/local_planner' with type 'ros.ament_python' and name 'local_planner'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extension 'ignore'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extension 'ignore_ament_install'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extensions ['colcon_pkg']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extension 'colcon_pkg'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extensions ['colcon_meta']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extension 'colcon_meta'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extensions ['ros']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_description) by extension 'ros'
+[0.860s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/rosni2_description' with type 'ros.ament_cmake' and name 'rosni2_description'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extension 'ignore_ament_install'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extensions ['colcon_pkg']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extension 'colcon_pkg'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extensions ['colcon_meta']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extension 'colcon_meta'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extensions ['ros']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni2_gazebo) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/rosni2_gazebo' with type 'ros.ament_cmake' and name 'rosni2_gazebo'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/quim/robotica_ros/P_final/src/rosni_robot) by extension 'ros'
+[0.869s] DEBUG:colcon.colcon_core.package_identification:Package '/home/quim/robotica_ros/P_final/src/rosni_robot' with type 'ros.ament_python' and name 'rosni_robot'
+[0.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

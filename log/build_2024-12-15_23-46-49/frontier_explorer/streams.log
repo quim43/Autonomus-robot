@@ -1,0 +1,21 @@
+[1.845s] Invoking command in '/home/quim/robotica_ros/P_final/src/frontier_explorer': PYTHONPATH=/home/quim/robotica_ros/P_final/build/frontier_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frontier_explorer build --build-base /home/quim/robotica_ros/P_final/build/frontier_explorer/build install --record /home/quim/robotica_ros/P_final/build/frontier_explorer/install.log --single-version-externally-managed install_data
+[2.134s] running egg_info
+[2.134s] writing ../../build/frontier_explorer/frontier_explorer.egg-info/PKG-INFO
+[2.134s] writing dependency_links to ../../build/frontier_explorer/frontier_explorer.egg-info/dependency_links.txt
+[2.135s] writing entry points to ../../build/frontier_explorer/frontier_explorer.egg-info/entry_points.txt
+[2.135s] writing requirements to ../../build/frontier_explorer/frontier_explorer.egg-info/requires.txt
+[2.135s] writing top-level names to ../../build/frontier_explorer/frontier_explorer.egg-info/top_level.txt
+[2.137s] reading manifest file '../../build/frontier_explorer/frontier_explorer.egg-info/SOURCES.txt'
+[2.138s] writing manifest file '../../build/frontier_explorer/frontier_explorer.egg-info/SOURCES.txt'
+[2.138s] running build
+[2.138s] running build_py
+[2.138s] running install
+[2.138s] running install_lib
+[2.139s] running install_data
+[2.140s] running install_egg_info
+[2.142s] removing '/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages/frontier_explorer-0.0.0-py3.10.egg-info' (and everything under it)
+[2.142s] Copying ../../build/frontier_explorer/frontier_explorer.egg-info to /home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages/frontier_explorer-0.0.0-py3.10.egg-info
+[2.143s] running install_scripts
+[2.164s] Installing explorer_node script to /home/quim/robotica_ros/P_final/install/frontier_explorer/lib/frontier_explorer
+[2.164s] writing list of installed files to '/home/quim/robotica_ros/P_final/build/frontier_explorer/install.log'
+[2.200s] Invoked command in '/home/quim/robotica_ros/P_final/src/frontier_explorer' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/frontier_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frontier_explorer build --build-base /home/quim/robotica_ros/P_final/build/frontier_explorer/build install --record /home/quim/robotica_ros/P_final/build/frontier_explorer/install.log --single-version-externally-managed install_data

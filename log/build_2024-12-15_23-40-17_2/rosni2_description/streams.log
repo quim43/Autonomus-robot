@@ -1,0 +1,46 @@
+[0.036s] Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_description -- -j8 -l8
+[1.922s] Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_description -- -j8 -l8
+[2.123s] Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_description
+[2.151s] -- Install configuration: ""
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/config
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/config/rviz2
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/config/rviz2/default_view.rviz
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/config/diff_drive_controller.yaml
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/launch
+[2.152s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/launch/display.launch.py
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/launch/upload.launch.py
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/wheels
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/wheels/right_wheel.xacro
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/wheels/left_wheel.xacro
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/sensors
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/sensors/lidar.xacro
+[2.153s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/base
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/urdf/base/base.xacro
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/robot
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/robot/rosni.urdf.xacro
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/meshes
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/meshes/base.stl
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/meshes/right_wheel.stl
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/meshes/lidar.stl
+[2.154s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/meshes/left_wheel.stl
+[2.158s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/gazebo
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/gazebo/rosni.gazebo.xacro
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/ros2_control
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/ros2_control/ros2_control.xacro
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/ament_index/resource_index/package_run_dependencies/rosni2_description
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/ament_index/resource_index/parent_prefix_path/rosni2_description
+[2.159s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/environment/ament_prefix_path.sh
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/environment/ament_prefix_path.dsv
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/environment/path.sh
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/environment/path.dsv
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/local_setup.bash
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/local_setup.sh
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/local_setup.zsh
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/local_setup.dsv
+[2.160s] -- Installing: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.dsv
+[2.160s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/ament_index/resource_index/packages/rosni2_description
+[2.161s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/cmake/rosni2_descriptionConfig.cmake
+[2.161s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/cmake/rosni2_descriptionConfig-version.cmake
+[2.161s] -- Up-to-date: /home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.xml
+[2.161s] Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_description

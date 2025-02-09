@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/global_planner/global_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/global_planner/global_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/global_planner/global_planner.egg-info/entry_points.txt
+writing requirements to ../../build/global_planner/global_planner.egg-info/requires.txt
+writing top-level names to ../../build/global_planner/global_planner.egg-info/top_level.txt
+reading manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying global_planner/global_planner.py -> /home/quim/robotica_ros/P_final/build/global_planner/build/lib/global_planner
+copying global_planner/__init__.py -> /home/quim/robotica_ros/P_final/build/global_planner/build/lib/global_planner
+running install
+running install_lib
+copying /home/quim/robotica_ros/P_final/build/global_planner/build/lib/global_planner/global_planner.py -> /home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner
+copying /home/quim/robotica_ros/P_final/build/global_planner/build/lib/global_planner/__init__.py -> /home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner
+byte-compiling /home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner/global_planner.py to global_planner.cpython-310.pyc
+running install_data
+copying resource/global_planner -> /home/quim/robotica_ros/P_final/install/global_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/quim/robotica_ros/P_final/install/global_planner/share/global_planner
+running install_egg_info
+removing '/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/global_planner/global_planner.egg-info to /home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing global_planner_node script to /home/quim/robotica_ros/P_final/install/global_planner/lib/global_planner
+writing list of installed files to '/home/quim/robotica_ros/P_final/build/global_planner/install.log'

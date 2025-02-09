@@ -1,0 +1,4 @@
+source;share/rosni2_gazebo/local_setup.bash
+source;share/rosni2_gazebo/local_setup.dsv
+source;share/rosni2_gazebo/local_setup.sh
+source;share/rosni2_gazebo/local_setup.zsh

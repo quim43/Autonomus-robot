@@ -1,0 +1,362 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77032ac37640>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77032ad13d60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77032ad13d60>>, mixin_verb=('build',))
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/quim/robotica_ros/P_final'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/frontier_explorer) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frontier_explorer' with type 'ros.ament_python' and name 'frontier_explorer'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_planner) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_planner' with type 'ros.ament_python' and name 'global_planner'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_planner) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/local_planner' with type 'ros.ament_python' and name 'local_planner'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_description) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosni2_description' with type 'ros.ament_cmake' and name 'rosni2_description'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosni2_gazebo) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosni2_gazebo' with type 'ros.ament_cmake' and name 'rosni2_gazebo'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/quim/robotica_ros/P_final/install/rosni2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/quim/robotica_ros/P_final/install/local_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/quim/robotica_ros/P_final/install/global_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/quim/robotica_ros/P_final/install/frontier_explorer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.257s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/quim/robotica_ros/P_final/install/rosni2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/quim/robotica_ros/P_final/install
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'frontier_explorer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'frontier_explorer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quim/robotica_ros/P_final/build/frontier_explorer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quim/robotica_ros/P_final/install/frontier_explorer', 'merge_install': False, 'path': '/home/quim/robotica_ros/P_final/src/frontier_explorer', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'global_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'global_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quim/robotica_ros/P_final/build/global_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quim/robotica_ros/P_final/install/global_planner', 'merge_install': False, 'path': '/home/quim/robotica_ros/P_final/src/global_planner', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quim/robotica_ros/P_final/build/local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quim/robotica_ros/P_final/install/local_planner', 'merge_install': False, 'path': '/home/quim/robotica_ros/P_final/src/local_planner', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'rosni2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quim/robotica_ros/P_final/build/rosni2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quim/robotica_ros/P_final/install/rosni2_description', 'merge_install': False, 'path': '/home/quim/robotica_ros/P_final/src/rosni2_description', 'symlink_install': False, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rosni2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'rosni2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quim/robotica_ros/P_final/build/rosni2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quim/robotica_ros/P_final/install/rosni2_gazebo', 'merge_install': False, 'path': '/home/quim/robotica_ros/P_final/src/rosni2_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/quim/robotica_ros/P_final/src/rosni2_description' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/quim/robotica_ros/P_final/src/rosni2_description'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/quim/robotica_ros/P_final/src/frontier_explorer' with build type 'ament_python'
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('frontier_explorer', 'ament_prefix_path')
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/ament_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/ament_prefix_path.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/quim/robotica_ros/P_final/src/global_planner' with build type 'ament_python'
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/ament_prefix_path.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/ament_prefix_path.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/quim/robotica_ros/P_final/src/local_planner' with build type 'ament_python'
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/ament_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/ament_prefix_path.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake /home/quim/robotica_ros/P_final/src/rosni2_description -DCMAKE_INSTALL_PREFIX=/home/quim/robotica_ros/P_final/install/rosni2_description
+[0.613s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/quim/robotica_ros/P_final/src/frontier_explorer'
+[0.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/quim/robotica_ros/P_final/src/global_planner'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.167s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/quim/robotica_ros/P_final/src/local_planner'
+[1.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake /home/quim/robotica_ros/P_final/src/rosni2_description -DCMAKE_INSTALL_PREFIX=/home/quim/robotica_ros/P_final/install/rosni2_description
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_description -- -j8 -l8
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_description -- -j8 -l8
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_description
+[1.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosni2_description)
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_description
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description' for CMake module files
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description' for CMake config files
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosni2_description', 'cmake_prefix_path')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/bin'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/lib/pkgconfig/rosni2_description.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/bin'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.bash'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.zsh'
+[1.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/rosni2_description/share/colcon-core/packages/rosni2_description)
+[1.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosni2_description)
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description' for CMake module files
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description' for CMake config files
+[1.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosni2_description', 'cmake_prefix_path')
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/hook/cmake_prefix_path.sh'
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/bin'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/lib/pkgconfig/rosni2_description.pc'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/lib/python3.10/site-packages'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_description/bin'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.dsv'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.sh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.bash'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_description/share/rosni2_description/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/rosni2_description/share/colcon-core/packages/rosni2_description)
+[1.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/quim/robotica_ros/P_final/src/rosni2_gazebo' with build type 'ament_cmake'
+[1.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/quim/robotica_ros/P_final/src/rosni2_gazebo'
+[1.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake /home/quim/robotica_ros/P_final/src/rosni2_gazebo -DCMAKE_INSTALL_PREFIX=/home/quim/robotica_ros/P_final/install/rosni2_gazebo
+[1.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/src/frontier_explorer': PYTHONPATH=/home/quim/robotica_ros/P_final/build/frontier_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frontier_explorer build --build-base /home/quim/robotica_ros/P_final/build/frontier_explorer/build install --record /home/quim/robotica_ros/P_final/build/frontier_explorer/install.log --single-version-externally-managed install_data
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/src/local_planner': PYTHONPATH=/home/quim/robotica_ros/P_final/build/local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/quim/robotica_ros/P_final/build/local_planner/build install --record /home/quim/robotica_ros/P_final/build/local_planner/install.log --single-version-externally-managed install_data
+[1.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/src/global_planner': PYTHONPATH=/home/quim/robotica_ros/P_final/build/global_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/quim/robotica_ros/P_final/build/global_planner/build install --record /home/quim/robotica_ros/P_final/build/global_planner/install.log --single-version-externally-managed install_data
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner' for CMake module files
+[2.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/src/local_planner' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/local_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/local_planner build --build-base /home/quim/robotica_ros/P_final/build/local_planner/build install --record /home/quim/robotica_ros/P_final/build/local_planner/install.log --single-version-externally-managed install_data
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner' for CMake config files
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner/lib'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner/bin'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner/lib/pkgconfig/local_planner.pc'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner/lib/python3.10/site-packages'
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'pythonpath')
+[2.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/pythonpath.ps1'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/pythonpath.dsv'
+[2.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/hook/pythonpath.sh'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/local_planner/bin'
+[2.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/package.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/package.sh'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/package.bash'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/local_planner/share/local_planner/package.zsh'
+[2.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/local_planner/share/colcon-core/packages/local_planner)
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer' for CMake module files
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/src/frontier_explorer' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/frontier_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frontier_explorer build --build-base /home/quim/robotica_ros/P_final/build/frontier_explorer/build install --record /home/quim/robotica_ros/P_final/build/frontier_explorer/install.log --single-version-externally-managed install_data
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer' for CMake config files
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer/lib'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/pkgconfig/frontier_explorer.pc'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages'
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('frontier_explorer', 'pythonpath')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/pythonpath.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/pythonpath.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/hook/pythonpath.sh'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/frontier_explorer/bin'
+[2.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frontier_explorer)
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/package.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/package.dsv'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/package.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/package.bash'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/frontier_explorer/share/frontier_explorer/package.zsh'
+[2.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/frontier_explorer/share/colcon-core/packages/frontier_explorer)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner' for CMake module files
+[2.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/src/global_planner' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/global_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/quim/robotica_ros/P_final/build/global_planner/build install --record /home/quim/robotica_ros/P_final/build/global_planner/install.log --single-version-externally-managed install_data
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner' for CMake config files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner/lib'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner/bin'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner/lib/pkgconfig/global_planner.pc'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages'
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_planner', 'pythonpath')
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/pythonpath.ps1'
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/pythonpath.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/hook/pythonpath.sh'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/global_planner/bin'
+[2.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_planner)
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/package.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/package.dsv'
+[2.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/package.sh'
+[2.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/package.bash'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/global_planner/share/global_planner/package.zsh'
+[2.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/global_planner/share/colcon-core/packages/global_planner)
+[3.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake /home/quim/robotica_ros/P_final/src/rosni2_gazebo -DCMAKE_INSTALL_PREFIX=/home/quim/robotica_ros/P_final/install/rosni2_gazebo
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_gazebo -- -j8 -l8
+[3.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --build /home/quim/robotica_ros/P_final/build/rosni2_gazebo -- -j8 -l8
+[3.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_gazebo
+[3.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosni2_gazebo)
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' for CMake module files
+[3.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quim/robotica_ros/P_final/build/rosni2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/quim/robotica_ros/P_final/install/rosni2_description:/home/quim/robotica_ros/P_final/install/rosni2_gazebo:/home/quim/robotica_ros/P_final/install/local_planner:/home/quim/robotica_ros/P_final/install/global_planner:/home/quim/robotica_ros/P_final/install/frontier_explorer:/opt/ros/humble /usr/bin/cmake --install /home/quim/robotica_ros/P_final/build/rosni2_gazebo
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' for CMake config files
+[3.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosni2_gazebo', 'cmake_prefix_path')
+[3.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.ps1'
+[3.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.dsv'
+[3.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.sh'
+[3.617s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/bin'
+[3.618s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/lib/pkgconfig/rosni2_gazebo.pc'
+[3.618s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/lib/python3.10/site-packages'
+[3.618s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/bin'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.ps1'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.dsv'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.sh'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.bash'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.zsh'
+[3.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/colcon-core/packages/rosni2_gazebo)
+[3.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosni2_gazebo)
+[3.641s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' for CMake module files
+[3.642s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo' for CMake config files
+[3.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosni2_gazebo', 'cmake_prefix_path')
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.ps1'
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.dsv'
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/hook/cmake_prefix_path.sh'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/bin'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/lib/pkgconfig/rosni2_gazebo.pc'
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/lib/python3.10/site-packages'
+[3.645s] Level 1:colcon.colcon_core.environment:checking '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/bin'
+[3.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.dsv'
+[3.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.sh'
+[3.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.bash'
+[3.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/rosni2_gazebo/package.zsh'
+[3.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quim/robotica_ros/P_final/install/rosni2_gazebo/share/colcon-core/packages/rosni2_gazebo)
+[3.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.648s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.653s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.668s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quim/robotica_ros/P_final/install/local_setup.ps1'
+[3.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quim/robotica_ros/P_final/install/_local_setup_util_ps1.py'
+[3.671s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quim/robotica_ros/P_final/install/setup.ps1'
+[3.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quim/robotica_ros/P_final/install/local_setup.sh'
+[3.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quim/robotica_ros/P_final/install/_local_setup_util_sh.py'
+[3.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quim/robotica_ros/P_final/install/setup.sh'
+[3.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quim/robotica_ros/P_final/install/local_setup.bash'
+[3.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quim/robotica_ros/P_final/install/setup.bash'
+[3.682s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quim/robotica_ros/P_final/install/local_setup.zsh'
+[3.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quim/robotica_ros/P_final/install/setup.zsh'

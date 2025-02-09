@@ -1,0 +1,21 @@
+[1.876s] Invoking command in '/home/quim/robotica_ros/P_final/src/global_planner': PYTHONPATH=/home/quim/robotica_ros/P_final/build/global_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/quim/robotica_ros/P_final/build/global_planner/build install --record /home/quim/robotica_ros/P_final/build/global_planner/install.log --single-version-externally-managed install_data
+[2.252s] running egg_info
+[2.253s] writing ../../build/global_planner/global_planner.egg-info/PKG-INFO
+[2.253s] writing dependency_links to ../../build/global_planner/global_planner.egg-info/dependency_links.txt
+[2.253s] writing entry points to ../../build/global_planner/global_planner.egg-info/entry_points.txt
+[2.254s] writing requirements to ../../build/global_planner/global_planner.egg-info/requires.txt
+[2.254s] writing top-level names to ../../build/global_planner/global_planner.egg-info/top_level.txt
+[2.257s] reading manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+[2.258s] writing manifest file '../../build/global_planner/global_planner.egg-info/SOURCES.txt'
+[2.258s] running build
+[2.259s] running build_py
+[2.259s] running install
+[2.260s] running install_lib
+[2.262s] running install_data
+[2.262s] running install_egg_info
+[2.264s] removing '/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[2.265s] Copying ../../build/global_planner/global_planner.egg-info to /home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages/global_planner-0.0.0-py3.10.egg-info
+[2.266s] running install_scripts
+[2.297s] Installing global_planner_node script to /home/quim/robotica_ros/P_final/install/global_planner/lib/global_planner
+[2.297s] writing list of installed files to '/home/quim/robotica_ros/P_final/build/global_planner/install.log'
+[2.362s] Invoked command in '/home/quim/robotica_ros/P_final/src/global_planner' returned '0': PYTHONPATH=/home/quim/robotica_ros/P_final/build/global_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quim/robotica_ros/P_final/install/global_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_planner build --build-base /home/quim/robotica_ros/P_final/build/global_planner/build install --record /home/quim/robotica_ros/P_final/build/global_planner/install.log --single-version-externally-managed install_data

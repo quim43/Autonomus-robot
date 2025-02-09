@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rosni_robot">
+  <xacro:macro name="lidar" params="parent *origin">
+    <link name="laser_frame" type="laser">
+      <visual>
+        <origin xyz="0 0 0.02" rpy="0 0 0"/>
+				<geometry>
+        	<mesh filename="file://$(find rosni2_description)/meshes/lidar.stl" scale="0.001 0.001 0.001"/>
+      	</geometry>
+        <material name="blue">
+          <color rgba="0 0 1 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.0" rpy="0 0 0"/>
+				<geometry>
+           <cylinder radius="0.035" length="0.016"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="laser_joint" type="fixed">
+      <xacro:insert_block name="origin"/>
+      <parent link="${parent}_link" />
+      <child link="laser_frame" />
+    </joint>
+  </xacro:macro>
+</robot>

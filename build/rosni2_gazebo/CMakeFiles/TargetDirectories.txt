@@ -1,0 +1,9 @@
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/uninstall.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/rosni2_gazebo_uninstall.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/test.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/edit_cache.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/rebuild_cache.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/list_install_components.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/install.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/install/local.dir
+/home/quim/robotica_ros/P_final/build/rosni2_gazebo/CMakeFiles/install/strip.dir

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rosni_robot">
+  <xacro:macro name="base" params="name parent *origin">
+    <link name="${name}_link">
+       <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="8.2573504e-01"/>
+      <inertia ixx="2.2124416e-03" ixy="-1.2294101e-05" ixz="3.4938785e-05"
+               iyy="2.1193702e-03" iyz="-5.0120904e-06"
+               izz="2.0064271e-03" />
+    </inertial>
+      <visual>
+        <origin xyz="-0.1325 0.1325 -0.02" rpy="1.5707 0 0"/>
+				<geometry>
+        	<mesh filename="file://$(find rosni2_description)/meshes/base.stl" scale="0.001 0.001 0.001"/>
+      	</geometry>
+        <material name="gray">
+          <color rgba="0.7 0.7 0.7 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0. 0. 0.038" rpy="0 0 0"/>
+				<geometry>
+           <cylinder radius="0.13" length="0.08"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${name}_joint" type="fixed">
+      <xacro:insert_block name="origin"/>
+      <parent link="${parent}"/>
+      <child link="${name}_link"/>
+    </joint>
+
+    <link name="crazy_wheel_front_link">
+    <inertial>
+      <origin xyz="0 0 0" />
+      <mass value="0.005" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+               iyy="0.001" iyz="0.0"
+               izz="0.001" />
+    </inertial>
+      <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+				<geometry>
+          <sphere radius="0.01"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+				<geometry>
+          <sphere radius="0.01"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="crazy_front_joint" type="fixed">
+      <origin xyz="0 0.1 -0.013" rpy="0 0 1.5707"/>
+      <parent link="${name}_link"/>
+      <child link="crazy_wheel_front_link"/>
+    </joint>
+
+    <link name="crazy_wheel_back_link">
+    <inertial>
+      <origin xyz="0 0 0" />
+      <mass value="0.005" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0"
+               iyy="0.001" iyz="0.0"
+               izz="0.001" />
+    </inertial>
+      <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+				<geometry>
+          <sphere radius="0.01"/>
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+				<geometry>
+          <sphere radius="0.01"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="crazy_back_joint" type="fixed">
+      <origin xyz="0 -0.1 -0.013" rpy="0 0 1.5707"/>
+      <parent link="${name}_link"/>
+      <child link="crazy_wheel_back_link"/>
+    </joint>
+
+  </xacro:macro>
+</robot>

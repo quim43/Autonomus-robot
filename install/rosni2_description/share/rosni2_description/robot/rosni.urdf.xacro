@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rosni_robot">
+
+  <xacro:include filename="$(find rosni2_description)/urdf/base/base.xacro"/>
+  <xacro:include filename="$(find rosni2_description)/urdf/wheels/right_wheel.xacro"/>
+  <xacro:include filename="$(find rosni2_description)/urdf/wheels/left_wheel.xacro"/>
+  <xacro:include filename="$(find rosni2_description)/urdf/sensors/lidar.xacro"/>
+  
+  <xacro:include filename="$(find rosni2_description)/ros2_control/ros2_control.xacro"/>
+  <xacro:include filename="$(find rosni2_description)/gazebo/rosni.gazebo.xacro"/>
+
+  <link name="base_footprint" />
+
+  <xacro:base name="base" parent="base_footprint">
+    <origin xyz="0 0 0.02" rpy="0 0 -1.5707"/>
+  </xacro:base>
+
+  <xacro:right_wheel name="right_wheel" parent="base">
+    <origin xyz="0.108 0 0.019" rpy="0 -1.5707 0"/>
+  </xacro:right_wheel>
+
+  <xacro:left_wheel name="left_wheel" parent="base">
+    <origin xyz="-0.108 0 0.019" rpy="0 -1.5707 0"/>
+  </xacro:left_wheel>
+	
+  <xacro:lidar parent="base">
+    <origin xyz="-0.006 0 0.125" rpy="0 0 0"/>
+  </xacro:lidar>
+
+  <xacro:rosni_ros2_control/>
+  <xacro:rosni_gazebo/>
+
+</robot>

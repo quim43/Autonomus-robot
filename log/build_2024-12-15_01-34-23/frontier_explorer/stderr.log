@@ -1,0 +1,5 @@
+  File "/home/quim/robotica_ros/P_final/install/frontier_explorer/lib/python3.10/site-packages/frontier_explorer/explorer.py", line 188
+    rclpy.time.Time()
+    ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
