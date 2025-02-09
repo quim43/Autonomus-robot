@@ -36,7 +36,7 @@ sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-slam-
 
 2️⃣ Clonar el repositorio en tu workspace de ROS2:
 cd ~/ros2_ws/src
-git clone https://github.com/tu-usuario/rosni-autonomous-navigation.git
+git clone https://github.com/..
 cd ..
 colcon build
 
