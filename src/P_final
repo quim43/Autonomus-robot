@@ -1,0 +1,29 @@
+# rosni coomands
+export ROS_DOMAIN_ID=2 
+user@10.42.0.1	
+
+cd robotica_ros/P_final
+colcon build && source install/setup.bash
+
+# all simulation
+ros2 launch frontier_explorer exploration_main.launch.py
+
+# move simu
+source install/setup.bash
+ros2 launch rosni2_gazebo key_teleop.launch.py
+
+# simu
+source install/setup.bash
+ros2 launch rosni2_gazebo rosni_slam.launch.py
+
+# frontier
+source install/setup.bash 
+ros2 run frontier_explorer explorer_node
+
+#Global planer
+source install/setup.bash
+ros2 run global_planner global_planner_node
+
+#Local planner
+source install/setup.bash
+ros2 run local_planner local_planner_node
